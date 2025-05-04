@@ -7,7 +7,7 @@ from PIL import Image
 import time
 
 # Load trained model
-with open("/Users/rahulsaklani/Desktop/SHLAssesment/model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Custom mapping function
